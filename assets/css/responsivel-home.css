@@ -1,0 +1,162 @@
+* {
+    transition: all 0.2s ease;
+}
+
+body {
+    transition: all 0.2s ease;
+}
+
+@media only screen and (max-width: 319px) {
+
+    .profile1,
+    .profile2,
+    .profile3,
+    .profile4,
+    .profile5,
+    .profile6 {
+        border-radius: 10px;
+        width: 75%;
+        height: 28rem;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-links {
+        display: flex;
+        flex-direction: row;
+        gap: 20px
+    }
+
+    .profile-bio {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+    .h1-title {
+        font-size: 29px;
+    }
+
+
+    .profile1,
+    .profile2,
+    .profile3,
+    .profile4,
+    .profile5,
+    .profile6 {
+        border-radius: 10px;
+        width: 80%;
+        height: 25rem;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-links {
+        display: flex;
+        flex-direction: row;
+        gap: 20px
+    }
+
+    .profile-bio {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+    .profile1,
+    .profile2,
+    .profile3,
+    .profile4,
+    .profile5,
+    .profile6 {
+        border-radius: 10px;
+        width: 85%;
+        height: 20rem;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-links {
+        display: flex;
+        flex-direction: row;
+        gap: 20px
+    }
+
+    .profile-bio {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+
+    .profile1,
+    .profile2,
+    .profile3,
+    .profile4,
+    .profile5,
+    .profile6 {
+        border-radius: 10px;
+        width: 90%;
+        height: 13rem;
+
+    }
+
+    .profile-links {
+        gap: 5px
+    }
+
+    .profile-bio {
+        font-size: 17px;
+    }
+
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 1025px) {
+
+    .profile1,
+    .profile2,
+    .profile3,
+    .profile4,
+    .profile5,
+    .profile6 {
+        border-radius: 10px;
+        width: 95%;
+        height: 15rem;
+
+    }
+
+    .profile-links {
+        gap: 5px
+    }
+
+    .profile-bio {
+        font-size: 17.3px;
+    }
+}
+
+@media only screen and (min-width: 1201px) {
+
+    .profile1,
+    .profile2,
+    .profile3,
+    .profile4,
+    .profile5,
+    .profile6 {
+        border-radius: 10px;
+        width: 95%;
+        height: 15rem;
+
+    }
+
+    .profile-links {
+        gap: 5px
+    }
+
+    .profile-bio {
+        font-size: 17.5px;
+    }
+}
